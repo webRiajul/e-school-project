@@ -1,0 +1,292 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar
+{
+    padding: 30px 0;
+}
+.nav
+{
+    padding: 10px 0;
+}
+.nav ul li
+{
+    width: 100px !important;
+}
+.nav a
+{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    margin: 0 10px;
+}
+.sign-in-btn
+{
+    background-color: rgb(1, 1, 99);
+    color: white !important;
+    border-radius: 50px;
+}
+.nav a:hover 
+{
+   background-color: rgb(1, 1, 99);
+   color: white;
+}
+/* Banner Section */
+.banner
+{
+    margin-bottom: 100px;
+}
+.banner p.lead
+{
+    color: red;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.banner p
+{
+    color: rgb(94, 91, 91);
+    margin-bottom: 5px;
+}
+.banner h1
+{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.banner h1 span
+{
+    color: #010163;
+}
+.banner a
+{
+    background-color: rgb(1, 1, 99);
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.banner a:hover
+{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+/* Categories */
+.categories
+{
+    margin-bottom: 50px;
+}
+.categories h1
+{
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: #010163;
+}
+.categories h1 span
+{
+    color: black;
+}
+.categories .col-md-3 img
+{
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.categories .col-md-3 h3
+{
+    color: #934CF6;
+}
+.categories .col-md-3 p
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card1, .card2, .card3, .card4
+{
+    padding: 30px;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover
+{
+    height: 220px;
+    width: auto;
+    box-shadow: 5px 5px 30px 5px rgb(77, 75, 75);
+    transition: all 0.6s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* Courses */
+.courses h1
+{
+    color: #010163;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.courses h1 span
+{
+    color: black;
+}
+.courses .card
+{
+    padding: 20px;
+    background: rgba(238, 238, 238, 0.418);
+    box-shadow: 1px 1px 10px black;
+}
+.card-body .buy-course-btn
+{
+    background-color: rgb(1, 1, 99);
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-bottom img
+{
+    width: auto;
+    height: 30px;
+}
+.card-bottom .col-8 h6,
+.card-bottom .col-4 h6
+{
+    margin-top: 5px;
+}
+/* Testimonial */
+.testimonial
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial h1
+{
+    color: #010163;
+    margin-bottom: 50px;
+}
+.testimonial .col-md-4
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.testimonial img
+{
+    width: auto;
+    height: 150px;
+}
+.testimonial p
+{
+    font-weight: 700;
+}
+/* Footer */
+footer
+{
+    background: #01012c;
+    color: white;
+    padding: 50px;
+}
+footer h5{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+footer a
+{
+    color: rgb(201, 197, 197);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 991px){
+    .navbar-brand{
+        width: 150px;
+        height: 100px;
+    }
+    .testimonial .col-md-4{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .card
+    {
+        width: 100%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+    
+.navbar
+{
+    padding: 30px 0;
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    width: 80px !important;
+}
+.nav
+{
+    padding: 10px 0;
+}
+.nav ul li
+{
+    width: 20px !important;
+}
+.nav a
+{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    margin: 0 10px;
+}
+.sign-in-btn
+{
+    background-color: rgb(1, 1, 99);
+    color: white !important;
+    border-radius: 50px;
+}
+.nav a:hover 
+{
+   background-color: rgb(1, 1, 99);
+   color: white;
+}
+.banner a
+{
+    background-color: rgb(1, 1, 99);
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.card
+{
+    width: 14rem;
+}
+    }
+
